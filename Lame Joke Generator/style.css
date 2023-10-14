@@ -1,0 +1,68 @@
+*{
+    background-color: #212121;
+    color: white;
+    margin: 0;
+    background-image: url('https://imgs.search.brave.com/mge690mfAzye-j0zBleJDB3QMpeO10LLLNXAeloZqUY/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/cHJlbWl1bS1waG90/by9hYnN0cmFjdC1n/cmFkaWVudC1iYWNr/Z3JvdW5kLWJhY2tn/cm91bmQtZGVzaWdu/XzUwOTQ3MS0zOC5q/cGc_c2l6ZT02MjYm/ZXh0PWpwZw');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Optional: This keeps the background fixed while scrolling */
+    background-position: center;
+    /* font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+body,html{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.box{
+    position: fixed;
+    /* right: ; */
+    height: 350px;
+    width: 800px;
+    /* border: 2px solid #fff; */
+    text-align: center;
+    border-radius: 10px;
+    /* background-image: url('https://imgs.search.brave.com/mge690mfAzye-j0zBleJDB3QMpeO10LLLNXAeloZqUY/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/cHJlbWl1bS1waG90/by9hYnN0cmFjdC1n/cmFkaWVudC1iYWNr/Z3JvdW5kLWJhY2tn/cm91bmQtZGVzaWdu/XzUwOTQ3MS0zOC5q/cGc_c2l6ZT02MjYm/ZXh0PWpwZw'); */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);    
+}
+h1{
+
+    margin: 50px;
+
+}
+
+button {
+    position: fixed;
+    top: 465px; /* Adjust the top position as needed */
+    right: 43%; /* Adjust the right position as needed */
+    width: 230px;
+    height: 50px;
+    border-radius: 20px;
+    color: white;
+    font-weight: 900;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: rgb(142, 156, 213);
+    /* border: 2px solid white; */
+}
+button:hover{
+    transform: scale(.97) translateY(-1%);
+    color: #edcaca;
+}
+
+
+p{  
+    padding: 30px;
+    /* border: 2px solid white; */
+    font-size: x-large;
+    margin-bottom: 20px;
+    margin-top: 38px;
+    font-weight: 600;
+}
